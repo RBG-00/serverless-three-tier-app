@@ -1,17 +1,19 @@
-**🚀 Serverless Three-Tier Web Application on AWS**
+# 🚀 Serverless Three-Tier Web Application on AWS
 
-**📖 Overview**
-
-This project is a fully serverless three-tier web application built using AWS services.
+## 📖 Overview
+This project is a fully serverless three-tier web application built using AWS services.  
 It demonstrates how to design and deploy a scalable, cost-efficient web application without managing servers.
 
-**🏗 Architecture**
+---
 
+## 🏗 Architecture
 The application follows a three-tier architecture:
 
-Frontend Tier: Static website hosted on Amazon S3 and delivered via CloudFront
-Backend Tier: API managed by API Gateway and processed using AWS Lambda
-Database Tier: NoSQL database using DynamoDB
+- **Frontend Tier**: Static website hosted on Amazon S3 and delivered via CloudFront  
+- **Backend Tier**: API managed by API Gateway and processed using AWS Lambda  
+- **Database Tier**: NoSQL database using DynamoDB  
+
+---
 
 ## 🔁 Architecture Flow
 
@@ -20,7 +22,9 @@ Database Tier: NoSQL database using DynamoDB
 3. API Gateway receives the request  
 4. Lambda function processes the request  
 5. Data is retrieved from DynamoDB  
-6. Response is returned to the frontend 
+6. Response is returned to the frontend  
+
+---
 
 ## ⚙️ Technologies Used
 
@@ -30,52 +34,67 @@ Database Tier: NoSQL database using DynamoDB
 - AWS Lambda – Serverless compute  
 - Amazon DynamoDB – NoSQL database  
 
+---
 
-**🖼 Architecture Diagram**
+## 🖼 Architecture Diagram
 
-(Add your architecture screenshot here)
+![Architecture](./architecture.png)
 
-**🖼 Application Screenshots**
+---
 
-(Add your application screenshots here)
+## 🖼 Application Screenshots
 
-**🚀 Features**
+![App Screenshot](./screenshot1.png)
 
-Fully serverless architecture
-Scalable and highly available
-Cost-efficient (pay-as-you-go model)
-Fast content delivery using CDN
-RESTful API integration
+---
 
-**🧠 What I Learned**
+## 🚀 Features
 
-Designing serverless architectures
-Integrating frontend with backend APIs
-Working with AWS services (S3, CloudFront, API Gateway, Lambda, DynamoDB)
-Handling CORS and debugging API issues
-Managing IAM roles and permissions
+- Fully serverless architecture  
+- Scalable and highly available  
+- Cost-efficient (pay-as-you-go model)  
+- Fast content delivery using CDN  
+- RESTful API integration  
 
-**🤔 Why Serverless?**
+---
+
+## 🧠 What I Learned
+
+- Designing serverless architectures  
+- Integrating frontend with backend APIs  
+- Working with AWS services (S3, CloudFront, API Gateway, Lambda, DynamoDB)  
+- Handling CORS and debugging API issues  
+- Managing IAM roles and permissions  
+
+---
+
+## 🤔 Why Serverless?
 
 Serverless architecture was chosen because:
 
-No server management required
-Automatic scaling
-Cost-efficient for small to medium applications
-Faster development and deployment
+- No server management required  
+- Automatic scaling  
+- Cost-efficient for small to medium applications  
+- Faster development and deployment  
 
-**⚠️ Notes**
+---
 
-No sensitive data or credentials are included in this repository
-IAM roles and permissions were configured securely
+## ⚠️ Notes
 
-**📌 Future Improvements**
+- No sensitive data or credentials are included in this repository  
+- IAM roles and permissions were configured securely  
 
-Add authentication using AWS Cognito
-Implement CI/CD pipeline (GitHub Actions)
-Improve UI/UX design
-Add monitoring and logging enhancements
+---
 
-**👨‍💻 Author**
+## 📌 Future Improvements
 
-Developed by Mohammad Al-Samada
+- Add authentication using AWS Cognito  
+- Implement CI/CD pipeline (GitHub Actions)  
+- Improve UI/UX design  
+- Add monitoring and logging enhancements  
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Mohammad Al-Samada**
