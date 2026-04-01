@@ -14,6 +14,7 @@ Backend Tier: API managed by API Gateway and processed using AWS Lambda
 Database Tier: NoSQL database using DynamoDB
 
 **🔁 Architecture Flow**
+
 User accesses the web application via CloudFront
 Frontend sends a request using Fetch API
 API Gateway receives the request
@@ -22,6 +23,7 @@ Data is retrieved from DynamoDB
 Response is returned to the frontend
 
 **⚙️ Technologies Used**
+
 Amazon S3 – Static website hosting
 Amazon CloudFront – Content Delivery Network (CDN)
 Amazon API Gateway – API management
@@ -37,6 +39,7 @@ Amazon DynamoDB – NoSQL database
 (Add your application screenshots here)
 
 **🚀 Features**
+
 Fully serverless architecture
 Scalable and highly available
 Cost-efficient (pay-as-you-go model)
@@ -44,6 +47,7 @@ Fast content delivery using CDN
 RESTful API integration
 
 **🧠 What I Learned**
+
 Designing serverless architectures
 Integrating frontend with backend APIs
 Working with AWS services (S3, CloudFront, API Gateway, Lambda, DynamoDB)
@@ -60,10 +64,12 @@ Cost-efficient for small to medium applications
 Faster development and deployment
 
 **⚠️ Notes**
+
 No sensitive data or credentials are included in this repository
 IAM roles and permissions were configured securely
 
 **📌 Future Improvements**
+
 Add authentication using AWS Cognito
 Implement CI/CD pipeline (GitHub Actions)
 Improve UI/UX design
