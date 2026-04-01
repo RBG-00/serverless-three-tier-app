@@ -1,10 +1,11 @@
-🚀 Serverless Three-Tier Web Application on AWS
-📖 Overview
+**🚀 Serverless Three-Tier Web Application on AWS**
+
+*📖 Overview*
 
 This project is a fully serverless three-tier web application built using AWS services.
 It demonstrates how to design and deploy a scalable, cost-efficient web application without managing servers.
 
-🏗 Architecture
+*🏗 Architecture*
 
 The application follows a three-tier architecture:
 
