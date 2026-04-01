@@ -38,13 +38,13 @@ The application follows a three-tier architecture:
 
 ## 🖼 Architecture Diagram
 
-![Architecture](./architecture.png)
+![Architecture](./images/Architecture.png)
 
 ---
 
 ## 🖼 Application Screenshots
 
-![App Screenshot](./screenshot1.png)
+![App Screenshot](./images/ApplicationScreen.png)
 
 ---
 
