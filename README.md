@@ -13,22 +13,23 @@ Frontend Tier: Static website hosted on Amazon S3 and delivered via CloudFront
 Backend Tier: API managed by API Gateway and processed using AWS Lambda
 Database Tier: NoSQL database using DynamoDB
 
-**🔁 Architecture Flow**
+## 🔁 Architecture Flow
 
-User accesses the web application via CloudFront
-Frontend sends a request using Fetch API
-API Gateway receives the request
-Lambda function processes the request
-Data is retrieved from DynamoDB
-Response is returned to the frontend
+1. User accesses the web application via CloudFront  
+2. Frontend sends a request using Fetch API  
+3. API Gateway receives the request  
+4. Lambda function processes the request  
+5. Data is retrieved from DynamoDB  
+6. Response is returned to the frontend 
 
-**⚙️ Technologies Used**
+## ⚙️ Technologies Used
 
-Amazon S3 – Static website hosting
-Amazon CloudFront – Content Delivery Network (CDN)
-Amazon API Gateway – API management
-AWS Lambda – Serverless compute
-Amazon DynamoDB – NoSQL database
+- Amazon S3 – Static website hosting  
+- Amazon CloudFront – Content Delivery Network (CDN)  
+- Amazon API Gateway – API management  
+- AWS Lambda – Serverless compute  
+- Amazon DynamoDB – NoSQL database  
+
 
 **🖼 Architecture Diagram**
 
